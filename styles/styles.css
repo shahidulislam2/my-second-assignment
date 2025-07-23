@@ -27,6 +27,14 @@
 .display-flex{
     display: flex;
 }
+.btn-primary{
+    width: 270px;
+    height: 50px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+}
 
 .primary-color{
     color: #E95A08;
@@ -87,6 +95,61 @@
 }
 .banner-img{
     width: 100%;
+}
+/* main section styles */
+.our-plants{
+    max-width: 1140px;
+    margin: 0 auto;
+ 
+    
+}
+.section-container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 3.125rem;
+    margin-bottom: 0;
+    margin-top: 120px;
+    
+}
+.section-description{
+    font-weight: 400;
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 126px;
+    margin-right: 126px;
+}
+.plants-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.plat-name{
+    font-weight: 400;
+    font-size: 1.375rem;
+    color: #111111;
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+}
+.plant-value{
+    font-weight: bold;
+    font-size: 1.375rem;
+    color: #111111;
+    margin-top: 10px;
+   
+}
+.plant{
+    text-align: center;
+   
+}
+.btn-primary{
+    margin-bottom: 30px;
+    gap: 10px;
+    border: none;
 }
 
 
