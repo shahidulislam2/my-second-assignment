@@ -151,6 +151,48 @@
     gap: 10px;
     border: none;
 }
+/* plants lover section style */
+.flower-img{
+    position: relative;
+
+}
+#badge-img{
+   width: 286px;
+   height: 286px;
+   position: absolute;
+   margin-top: -9%;
+   margin-left: -12%;
+}
+.plants-lover{
+    max-width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 200px;
+    gap: 60px;
+    align-items: center;
+}
+
+.lover-title{
+    font-weight: bold;
+    font-size: 3.125rem;
+    color: #000000;
+    margin-top: 50px;
+    height: 137px;
+    width: 540px;
+    
+}
+.lover-description{
+    font-weight: 400;
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+ul li{
+    margin-bottom: 20px;
+}
+
+
+
 
 
 
@@ -173,8 +215,30 @@
     .banner-description{
         font-size: 1.2rem;
         width: 100%;
-    
     }
     
+    .plants-container{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
     
     }
+    /* deals styles */
+ 
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .deals-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .deal-card.big {
+    width: 100%;
+    height: 200px;
+  }
+
+  .deal-card.small {
+    width: 100%;
+  }
+}
