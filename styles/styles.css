@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
 .noto-serif-font {
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
@@ -8,7 +17,6 @@
         "wdth" 100;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
 .inter-font {
@@ -183,7 +191,7 @@
 /* plants lover section style */
 .flower-img {
     position: relative;
-    /* width: 100%; */
+    width: 100%;
 
 }
 
@@ -210,13 +218,15 @@
     color: #000000;
     margin-top: 50px;
     height: 137px;
-    width: 540px;
+
 
 }
 
 .lover-description {
     font-weight: 400;
     font-size: 1.375rem;
+    width: 80%;
+    margin: 0 auto;
     color: rgba(0, 0, 0, 0.5);
 
 }
@@ -241,11 +251,11 @@ ul li {
 
 .deals-description {
     max-width: 888px;
-    height: 54px;
+
     font-weight: 400;
     font-size: 1.375;
-    margin-left: 276px;
-    margin-right: 276px;
+    width: 70%;
+    margin: 10px auto;
     color: rgba(0, 0, 0, 0.5)
 }
 
@@ -256,6 +266,12 @@ ul li {
     justify-content: center;
     height: 423px;
 
+}
+
+.left-img {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
 }
 
 .left-img1 {
@@ -281,7 +297,7 @@ ul li {
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
 
-    margin-top: 20px;
+    /* margin-top: 20px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -363,7 +379,7 @@ ul li {
 
 .subscribe-form input[type="email"] {
     padding: 10px;
-    width: 644px;
+    width: 80%;
     border: none;
     border-radius: 4px 0 0 4px;
     font-size: 16px;
@@ -458,6 +474,12 @@ ul li {
         flex-direction: row;
     }
 
+    .right-img,
+    .left-img1,
+    .left-img2 {
+        width: 100%;
+    }
+
     .section-description {
 
         margin-left: 26px;
@@ -468,6 +490,15 @@ ul li {
     .banner {
         max-width: 361px;
         margin: 0 auto;
+    }
+
+    .plants-lover {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .deals-container {
+        flex-direction: column;
     }
 
     .banner {
