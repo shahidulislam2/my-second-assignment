@@ -406,7 +406,8 @@ ul li {
 .footer {
     display: flex;
     max-width: 1120px;
-    height: 248px;
+    /* height: 248px; */
+    padding: 20px 10px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -472,6 +473,22 @@ ul li {
         width: 100px;
         display: flex;
         flex-direction: row;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: left;
+        align-items: start;
+        gap: 20px;
+    }
+
+    .footer-middle {
+      
+        grid-template-columns: repeat(1, 1fr);
+
+        
+
+
     }
 
     .right-img,
