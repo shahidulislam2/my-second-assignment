@@ -91,6 +91,8 @@
 
 .nav-link {
     text-decoration: none;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar,
@@ -258,14 +260,13 @@ ul li {
 
 .deals-description {
     max-width: 888px;
-    
+
 
     font-weight: 400;
     font-size: 1.375;
     width: 70%;
     margin: 10px auto;
     color: rgba(0, 0, 0, 0.5)
-    
 }
 
 .deals-container {
@@ -273,7 +274,7 @@ ul li {
     gap: 28px;
     align-items: center;
     justify-content: center;
-    height: 423px;
+    /* height: 423px; */
     max-width: 1140px;
 
 
@@ -283,7 +284,7 @@ ul li {
     display: flex;
     flex-direction: column;
     gap: 28px;
-    height: 100%;
+    height: 423px;
     width: 367px;
 }
 
@@ -293,7 +294,7 @@ ul li {
     height: 100%;
 
     border-radius: 14px;
-     background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
 
     /* margin-top: 20px; */
@@ -308,7 +309,7 @@ ul li {
     width: 100%;
     height: 100%;
     border-radius: 14px;
-     background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
 
     /* margin-top: 20px; */
@@ -320,7 +321,7 @@ ul li {
 .right-img {
     background-image: url(../assets/deal-zabo.png);
     width: 753px;
-    height:423px;
+    height: 423px;
     border-radius: 22px;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
@@ -496,6 +497,9 @@ ul li {
     .hide {
         display: none;
     }
+    .navbar{
+        width: 100%;
+    }
 
     .cart {
         width: 100px;
@@ -527,11 +531,11 @@ ul li {
         margin-right: 26px;
     }
 
-    .navbar,
+    /* .navbar,
     .banner {
         max-width: 361px;
         margin: 0 auto;
-    }
+    } */
 
     .plants-lover {
         flex-direction: column;
@@ -560,7 +564,7 @@ ul li {
 
     .right-img {
         width: 367px;
-        height: 581px;
+        height: 230px;
     }
 
     .banner-title {
@@ -576,6 +580,10 @@ ul li {
         grid-template-columns: repeat(2, 0.5fr);
         justify-items: center;
         gap: 5px;
+    }
+
+    .nav-link {
+        width: max-content;
     }
 
     .plant {
